@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruxton Elite</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", sans-serif;
+        line-height: 1.6;
+        background-color: #fff;
+        color: #333;
+      }
+      header {
+        background: #111;
+        color: #fff;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+      }
+      header h1 {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        transition: background 0.3s ease;
+      }
+      nav ul li a:hover {
+        background: #e0a80d;
+        border-radius: 5px;
+      }
+      .hero-menu {
+        width: 100%;
+        height: 60vh;
+        background-image: url("C:/Users/malna/Desktop/CR7/bc.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .hero-text {
+        color: black;
+      }
+      .hero-text h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+      }
+      .hero-text p {
+        font-size: 1.1rem;
+      }
+      .menu-section {
+        padding: 4rem 5%;
+        background: #fafafa;
+      }
+      .menu-section h2 {
+        font-size: 2rem;
+        color: #111;
+        margin-bottom: 1rem;
+        border-left: 5px solid #e4b95b;
+        padding-left: 0.75rem;
+        font-weight: 700;
+      }
+      .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-bottom: 3.5rem;
+      }
+      .menu-card {
+        background: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .menu-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+      }
+      .menu-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .menu-info {
+        padding: 1rem 1.2rem;
+      }
+      .menu-info h3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+      .menu-info span {
+        color: #e4b95b;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+      .menu-info p {
+        font-size: 0.95rem;
+        color: #555;
+      }
+      footer {
+        background: #111;
+        color: #ddd;
+        text-align: center;
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Ruxton Elite</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero hero-menu">
+      <div class="hero-text">
+        <h1>Our Exclusive Car Collection</h1>
+        <p>"Where engineering reaches its aesthetic peak."</p>
+      </div>
+    </section>
+    <section class="menu-section">
+      <h2>Super Cars</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="C:/Users/malna/Desktop/CR7/1.avif" alt="Ferrari SF90" />
+          <div class="menu-info">
+            <h3>Ferrari SF90 XX Spider <span>Rs.7,50,00,001</span></h3>
+            <p>
+              "The purest expression Italian adernaline".</p>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="C:/Users/malna/Desktop/CR7/pppp.jpg" alt="Supra" />
+          <div class="menu-info">
+            <h3>Supra Mk5 <span>₹80,00,000</span></h3>
+            <p>"A masterful fusion of iconic lineage and modren precision engneering."</p>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="C:/Users/malna/Desktop/CR7/llll.jpg" alt="Lamborgini" />
+          <div class="menu-info">
+            <h3>Lambergini Sian <span>₹30,82,00,000</span></h3>
+            <p>Unrivaled Power.</p>
+          </div>
+        </div>
+      </div>
+      <h2>Luxury full size</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="C:/Users/malna/Desktop/CR7/bt.jpg" alt="XUV BE6" />
+          <div class="menu-info">
+            <h3>XUV BE6 <span>₹26,90,000</span></h3>
+            <p>BATMAN Edition.</p>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="C:/Users/malna/Desktop/CR7/mmmm.jpg" alt="Land Rover" />
+          <div class="menu-info">
+            <h3>Land Rover Defender <span>₹2,62,00,000</span></h3>
+            <p>The Unstopable Beast</p>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="C:/Users/malna/Desktop/CR7/sssssssssssssssss.jpg" alt="G-Wagon" />
+          <div class="menu-info">
+            <h3>Mercedes G-Wagon<span>₹2,90,00,000</span></h3>
+            <p>Built For Extremes.</p>
+          </div>
+        </div>
+      </div>
+      <h2>Modified Cars</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="C:\Users\malna\Downloads\rx7.avif" alt="supra  mk4" />
+          <div class="menu-info">
+            <h3>supra mk4<span>₹80,00,000</span></h3>
+            <p>"Built,not bought"</p>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="C:/Users/malna/Downloads/dodge-viper-flickr.avif" alt="Cheesecake" />
+          <div class="menu-info">
+            <h3>Dodge-Viper<span>₹$250,000</span></h3>
+            <p>Street legal,track ready."</p>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="C:\Users\malna\Downloads\hamann-porsche-911-turbo.jpg" alt="Porsche" />
+          <div class="menu-info">
+            <h3>Porsche-911-turbo<span>₹3,80,00,000</span></h3>
+            <p>The shape of speed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2026 Ruxton Elite. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

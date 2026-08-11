@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruxton Elite</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", sans-serif;
+        line-height: 1.6;
+        background-color: #fff;
+        color: #333;
+      }
+      header {
+        background: #111;
+        color: #fff;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+      }
+      header h1 {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        transition: background 0.3s ease;
+      }
+      nav ul li a:hover {
+        background: #e0a80d;
+        border-radius: 5px;
+      }
+      .hero {
+        background: url("C:/Users/malna/Desktop/sHRIVAS/car8.PNG")
+          no-repeat center/cover;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        padding: 0 1rem;
+      }
+      .hero h2 {
+        font-size: 3rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+      }
+      .hero p {
+        max-width: 600px;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+      }
+      .section {
+        padding: 4rem 2rem;
+        max-width: 1200px;
+        margin: auto;
+      }
+      .section h3 {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        color: #e0a80d;
+      }
+      .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+      }
+      .menu-item {
+        border: 1px solid #eee;
+        padding: 1rem;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+      }
+      .menu-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      .menu-item img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 0.5rem;
+      }
+      .about {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2rem;
+      }
+      .about img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 10px;
+      }
+      .about-text {
+        flex: 1;
+      }
+      .contact-info {
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 2;
+      }
+      footer {
+        background: #111;
+        color: #ddd;
+        text-align: center;
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Ruxton Elite</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2>Evoke a sense of old-money luxury</h2>
+      <p>
+        "Defined by speed,driven by design".
+        
+      </p>
+    </section>
+    <section class="section">
+      <h3>Elegant and High-End</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="C:/Users/malna/Desktop/sHRIVAS/car 2.jpeg"
+            alt="McLaren pi"
+          />
+          <h4>McLaren p1</h4>
+          <p>
+           Pioneering Hybrid Powertrain: The P1 was one of the first hypercars to successfully integrate a hybrid system to enhance performance rather than just fuel efficiency. Its 3.8-liter twin-turbo V8 works with an electric motor to produce a combined 903 horsepower. .
+          </p>
+        </div>
+        <div class="menu-item">
+          <img
+            src="C:/Users/malna/Desktop/sHRIVAS/car4.jpeg"
+            alt="BMW"
+          />
+          <h4>BMW M2 Competition</h4>
+          <p>
+            Manual Transmission: In an era where many performance cars have moved to automatic-only setups, the M2 remains one of the few high-performance models still available with a traditional six-speed manual gearbox.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img
+            src="C:/Users/malna/Desktop/sHRIVAS/car3.jpeg"
+            alt="lamborgini"
+          />
+          <h4>Lamborgini urus Alexander</h4>
+          <p>
+            Speed and Acceleration: It is among the fastest production SUVs in the world, with models like the Urus SE capable of reaching top speeds over 310 km/h (194 mph) and accelerating from 0–100 km/h in as little as 3.3 seconds.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section about">
+      <img
+        src="C:/Users/malna/Desktop/sHRIVAS/car 5.jpeg"
+        alt="Ruxton Interior"
+      />
+      <div class="about-text">
+        <h3>Our Story</h3>
+        <p>
+          The Story of Ruxton Elite: Where Motion Becomes Art
+It started with a simple realization: a machine is only as extraordinary as the journey it inspires.
+At Ruxton Elite, we believe that the soul of a vehicle isn't found in a specification sheet or a horsepower rating—it is found in the way it transforms a stretch of road into a moment of pure clarity. We were founded on the belief that acquiring a car shouldn't just be a transaction; it should be a curation of one’s own legacy.
+Our showroom was built to be more than just a destination; it is a sanctuary for those who understand that refinement is not an option, but a standard. From the precision engineering of a supercar to the balanced soul of a driver’s machine, we hand-select every vehicle to ensure it meets the highest bar of excellence.
+When you step into Ruxton Elite, you aren’t just looking for your next drive. You are joining a collective of enthusiasts who demand nothing less than the extraordinary.
+Ruxton Elite.
+Curating the Art of Motion..
+        </p>
+      </div>
+    </section>
+    <section class="section contact-info">
+      <h3>Visit Us</h3>
+      <p>Sheikh Zayed Road(SZR), Flavor Town, Dubai</p>
+      <p>Open Daily: 11:00 AM – 11:00 PM</p>
+      <p>Call for Reservations:009876543210</p>
+    </section>
+    <footer>
+      <p>&copy; 2026 RUXTON ELITE. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
